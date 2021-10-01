@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- This is the code that was used for the design of the text box that is displayed
+     at the top of the first screen. -->
+
+    <EditText
+        android:id="@+id/textBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Type some text here."
+        android:textSize="20sp" />
+
+    <!-- This is the code that I used to design the layout for the convert button. -->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="Convert to PDF" />
+
+    <!-- This is the code that I used to the design the layout for the view pdf
+    button -->
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:layout_marginTop="50dp"
+        android:text="View PDF Document" />
+
+</RelativeLayout>
