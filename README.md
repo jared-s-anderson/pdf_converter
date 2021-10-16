@@ -27,7 +27,6 @@ I decided to use the Java language for my PDF coverter app. The libraries that I
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
 * I need to pay more attention to the warning errors and try to fix them rather than accepting that my code is able to run.
 * I need to improve with my creativity skills when it comes to creating layouts like the XML files that I created.
 * I need to spend more time familiarizing myself with development environments so that it becomes easier to start writing programs.
